@@ -19,7 +19,7 @@ a {
 
 .container1 {
   background-image: url(./images/header.jpg);
-  border-radius: 0 0 0 6rem;
+  border-radius: 0 0 0 9rem;
 }
 
 header {
@@ -34,7 +34,10 @@ header {
 
 header strong {
   font-size: 3rem;
-  padding: 0 2rem;
+  padding: 0 2rem 1rem;
+  background-image: repeating-linear-gradient(to right, grey, white);
+  background-clip: text;
+  color: transparent;
 }
 
 .nav-bar {
@@ -56,6 +59,7 @@ header strong {
 
 .dropdowns:hover {
   text-shadow: 0 0 5px white;
+  cursor: pointer;
 }
 
 .dropdowns li {
@@ -99,6 +103,7 @@ header strong {
 .btn1:hover {
   font-size: 2rem;
   text-shadow: 0 0 5px white;
+  cursor: pointer;
 }
 
 .btn2 {
@@ -114,4 +119,63 @@ header strong {
 .btn2:hover {
   color: white;
   background-color: black;
+  cursor: pointer;
+}
+
+.header-content {
+  text-align: center;
+  padding: 6rem;
+  color: white;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+  padding: 9rem 0 3rem;
+}
+
+.btns {
+  padding-top: 8rem;
+}
+
+.btn3 {
+  padding: 2rem 3rem;
+  border-radius: 3rem;
+  border: 2px solid white;
+  background: white;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: 0 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn3:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0 0 5px white;
+  text-shadow: 0 0 5px black;
+}
+
+.btn4 {
+  padding: 2rem 3rem;
+  border-radius: 3rem;
+  border: 2px solid white;
+  background: white;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: 0 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn4:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0 0 5px white;
+  text-shadow: 0 0 5px black;
 }
