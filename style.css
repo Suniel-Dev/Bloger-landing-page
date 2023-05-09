@@ -35,7 +35,8 @@ header {
 header strong {
   font-size: 3rem;
   padding: 0 2rem 1rem;
-  background-image: repeating-linear-gradient(to right, grey, white);
+  background-image: radial-gradient(grey, white);
+  background-size: cover;
   background-clip: text;
   color: transparent;
 }
@@ -265,4 +266,37 @@ h5 {
 .text3 {
   text-align: end;
   text-shadow: 0 0 4rem rgb(128, 0, 128);
+}
+
+footer {
+  background-image: url(./images/image3.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 0 6rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  gap: 3rem;
+  padding: 5rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+footer strong {
+  font-size: 4rem;
+  text-shadow: 0 0 30px white;
+}
+
+footer span {
+  font-size: 2rem;
+}
+
+footer li {
+  transition: all 0.4s;
+}
+
+footer li:hover {
+  text-shadow: 0 0 5px white;
+  font-size: 2rem;
+  padding: 0 2rem;
 }
