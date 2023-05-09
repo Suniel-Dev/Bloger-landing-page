@@ -179,3 +179,67 @@ h1 {
   box-shadow: 0 0 5px white;
   text-shadow: 0 0 5px black;
 }
+
+.container2 {
+  padding: 3rem 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 6rem 0 3rem;
+}
+
+.container2 hr {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  text-align: start;
+  font-size: 1.5rem;
+  padding: 3rem 15rem;
+  width: 100%;
+}
+
+.text1 {
+  text-shadow: 0 0 50px rgba(89, 89, 253, 0.751);
+}
+
+h3 {
+  font-size: 2rem;
+  padding: 3rem 0 2rem;
+  border-bottom: 1px solid;
+}
+
+.img1 img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.container3 {
+  background-image: url(./images/image2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 9rem;
+  display: flex;
+  align-items: center;
+  height: 60vh;
+}
+
+.container3 figure {
+  width: 100%;
+  object-fit: contain;
+}
+
+.text2 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  padding: 6rem 3rem;
+}
