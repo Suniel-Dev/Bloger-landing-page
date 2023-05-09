@@ -304,6 +304,8 @@ footer span {
 
   header strong {
     padding: 3rem;
+    background-color: transparent;
+    color: black;
   }
 
   .nav-bar::before {
