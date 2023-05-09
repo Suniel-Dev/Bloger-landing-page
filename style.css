@@ -243,11 +243,6 @@ h3 {
   height: 60vh;
 }
 
-.container3 figure {
-  width: 100%;
-  object-fit: contain;
-}
-
 .text2 {
   text-align: center;
   font-size: 2rem;
@@ -282,7 +277,7 @@ footer {
   background-image: url(./images/image3.jpg);
   background-position: center;
   background-size: cover;
-  border-radius: 0 6rem;
+  border-radius: 0 6rem 0 0;
   display: flex;
   justify-content: space-evenly;
   align-items: start;
@@ -299,4 +294,45 @@ footer strong {
 
 footer span {
   font-size: 2rem;
+}
+
+@media (max-width: 800px) {
+  .container3 {
+    display: block;
+    height: auto;
+  }
+
+  .text2 {
+    text-shadow: 0 0 5px black;
+    padding: 20rem 2rem 30rem;
+  }
+
+  .img-phone img {
+    width: 100%;
+  }
+
+  .container4 {
+    display: block;
+    padding: 4rem 0;
+  }
+
+  .text {
+    padding: 3rem;
+  }
+
+  h5 {
+    text-align: center;
+  }
+
+  .text3 {
+    text-align: center;
+  }
+
+  footer {
+    display: block;
+  }
+
+  footer ul {
+    padding: 3rem 0;
+  }
 }
