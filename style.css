@@ -303,9 +303,9 @@ footer span {
   }
 
   header strong {
-    padding: 1rem;
     background: none;
     color: white;
+    border-bottom: 1px solid;
   }
 
   .nav-bar::before {
@@ -350,7 +350,6 @@ footer span {
 
   .nav-items {
     display: flex;
-    padding: 2rem 0;
     order: -1;
   }
 
