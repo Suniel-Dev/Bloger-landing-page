@@ -296,7 +296,7 @@ footer span {
   font-size: 2rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   header {
     width: 100%;
     align-items: start;
