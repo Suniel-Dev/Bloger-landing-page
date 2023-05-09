@@ -208,7 +208,7 @@ h2 {
 }
 
 .text1 {
-  text-shadow: 0 0 50px rgba(89, 89, 253, 0.751);
+  text-shadow: 0 0 4rem rgba(89, 89, 253, 0.751);
 }
 
 h3 {
@@ -242,4 +242,27 @@ h3 {
   font-size: 2rem;
   color: white;
   padding: 6rem 3rem;
+}
+
+.container4 {
+  display: flex;
+  align-items: center;
+  margin-top: 15rem;
+}
+
+.img2 img {
+  width: 100%;
+}
+
+h5 {
+  font-size: 2rem;
+  text-align: end;
+  padding-bottom: 2rem;
+  margin: 2rem 0;
+  border-bottom: 1px solid;
+}
+
+.text3 {
+  text-align: end;
+  text-shadow: 0 0 4rem rgb(128, 0, 128);
 }
