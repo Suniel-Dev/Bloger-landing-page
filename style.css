@@ -297,6 +297,23 @@ footer span {
 }
 
 @media (max-width: 800px) {
+  .btn3 {
+    margin: 3rem;
+    box-shadow: 0 0 5px black;
+  }
+
+  .btn4 {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 5px white;
+    text-shadow: 0 0 5px black;
+  }
+
+  .details {
+    display: block;
+  }
+
   .container3 {
     display: block;
     height: auto;
