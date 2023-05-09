@@ -317,6 +317,7 @@ footer span {
     display: flex;
     flex-direction: column;
     align-items: end;
+    padding: 0;
   }
 
   .dropdowns {
@@ -349,12 +350,12 @@ footer span {
 
   .nav-items {
     display: flex;
-    padding: 3rem 0;
+    padding: 2rem 0;
     order: -1;
   }
 
   .btn3 {
-    margin: 3rem;
+    margin: 3rem 0;
     box-shadow: 0 0 5px black;
   }
 
