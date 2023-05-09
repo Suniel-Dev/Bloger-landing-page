@@ -341,6 +341,10 @@ footer span {
     display: none;
   }
 
+  .dropdowns:hover {
+    display: none;
+  }
+
   .nav-items {
     display: flex;
     padding: 3rem 0;
