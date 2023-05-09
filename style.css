@@ -63,8 +63,18 @@ header strong {
   cursor: pointer;
 }
 
+footer li {
+  transition: all 0.4s;
+}
+
 .dropdowns li {
   transition: all 0.4s;
+}
+
+footer li:hover {
+  text-shadow: 0 0 5px white;
+  font-size: 2rem;
+  padding: 0 2rem;
 }
 
 .dropdowns li:hover {
@@ -289,14 +299,4 @@ footer strong {
 
 footer span {
   font-size: 2rem;
-}
-
-footer li {
-  transition: all 0.4s;
-}
-
-footer li:hover {
-  text-shadow: 0 0 5px white;
-  font-size: 2rem;
-  padding: 0 2rem;
 }
