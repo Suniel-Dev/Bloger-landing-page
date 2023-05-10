@@ -35,10 +35,7 @@ header {
 header strong {
   font-size: 3rem;
   padding: 0 2rem 1rem;
-  background-image: radial-gradient(grey, white);
-  background-size: cover;
-  background-clip: text;
-  color: transparent;
+  text-shadow: 0 0 8px black;
 }
 
 .nav-bar {
@@ -93,7 +90,7 @@ footer li:hover {
   font-size: 1.8rem;
 }
 
-.dropdowns:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: flex;
   flex-direction: column;
   padding: 2rem 1rem;
